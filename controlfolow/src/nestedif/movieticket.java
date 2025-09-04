@@ -30,11 +30,11 @@ public class movieticket {
 			 
 			 if(ticket>=10)
 			 {
-				 System.out.println("you gte 10% dicount  ::");
+				 System.out.println("you get 10% dicount  ::");
 				  amount= totalprice*0.10;
 				 
 				 totalprice-=amount;
-				 System.out.println("after gating discount total money to pay:: "+totalprice);
+				 System.out.println("after getting discount total money to pay:: "+totalprice);
 				
 				 
 			 }
@@ -66,11 +66,11 @@ public class movieticket {
 			 
 			 if(ticket>=10)
 			 {
-				 System.out.println("you gte 10% dicount  ::");
+				 System.out.println("you get 10% dicount  ::");
 				  amount= totalprice*0.10;
 				 
 				 totalprice-=amount;
-				 System.out.println("after gating discount total money to pay:: "+totalprice);
+				 System.out.println("after getting discount total money to pay:: "+totalprice);
 				
 				 
 			 }
@@ -79,7 +79,7 @@ public class movieticket {
 			System.out.println("\nPlease select the time slot 9,12,6");
 			long time=sc.nextLong(); 
 			
-			if(time==9||time==12||time==6) //check time slot is avilble or not
+			if(time==9||time==12||time==6) //check time slot is avilable or not
 			{
 				
 				System.out.println("your ticket is booked and time slot is  ::"+time);
@@ -97,12 +97,111 @@ public class movieticket {
 		if(chioce==3)
 			
 		{
-			System.out.println("Please enter number of ticket for sikandar movie");
+			System.out.println("Please enter number of ticket for saiyyara movie");
 			int ticket=sc.nextInt();
+			 int totalprice=ticketprice*ticket;
+			 System.out.println("total amount of ticket  ::"+totalprice);
+			 
+			 if(ticket>=10)
+			 {
+				 System.out.println("you get 10% dicount  ::");
+				  amount= totalprice*0.10;
+				 
+				 totalprice-=amount;
+				 System.out.println("after getting discount total money to pay:: "+totalprice);
+				
+				 
+			 }
 			
+			
+			System.out.println("\nPlease select the time slot 9,12,6");
+			long time=sc.nextLong(); 
+			
+			if(time==9||time==12||time==6) //check time slot is available or not
+			{
+				
+				System.out.println("your ticket is booked and time slot is  ::"+time);
+				
+				
+			}
+			else {
+				System.out.println("time slot is not avilable");
+			}
 			
 			
 		}
+               if(chioce==4)
+			
+		{
+			System.out.println("Please enter number of ticket for natsmarth movie");
+			int ticket=sc.nextInt();
+			 int totalprice=ticketprice*ticket;
+			 System.out.println("total amount of ticket  ::"+totalprice);
+			 
+			 if(ticket>=10)
+			 {
+				 System.out.println("you get 10% dicount  ::");
+				  amount= totalprice*0.10;
+				 
+				 totalprice-=amount;
+				 System.out.println("after getting discount total money to pay:: "+totalprice);
+				
+				 
+			 }
+			
+			
+			System.out.println("\nPlease select the time slot 9,12,6");
+			long time=sc.nextLong(); 
+			
+			if(time==9||time==12||time==6) //check time slot is avilable or not
+			{
+				
+				System.out.println("your ticket is booked and time slot is  ::"+time);
+				
+				
+			}
+			else {
+				System.out.println("time slot is not avilable");
+			}
+			
+			
+		}
+               if(chioce==5)
+       			
+       		{
+       			System.out.println("Please enter number of ticket for sairath movie");
+       			int ticket=sc.nextInt();
+       			 int totalprice=ticketprice*ticket;
+       			 System.out.println("total amount of ticket  ::"+totalprice);
+       			 
+       			 if(ticket>=10)
+       			 {
+       				 System.out.println("you get 10% dicount  ::");
+       				  amount= totalprice*0.10;
+       				 
+       				 totalprice-=amount;
+       				 System.out.println("after getting discount total money to pay:: "+totalprice);
+       				
+       				 
+       			 }
+       			
+       			
+       			System.out.println("\nPlease select the time slot 9,12,6");
+       			long time=sc.nextLong(); 
+       			
+       			if(time==9||time==12||time==6) //check time slot is avilable or not
+       			{
+       				
+       				System.out.println("your ticket is booked and time slot is  ::"+time);
+       				
+       				
+       			}
+       			else {
+       				System.out.println("time slot is not avilable");
+       			}
+       			
+       			
+       		}
 		  
 		
 		
